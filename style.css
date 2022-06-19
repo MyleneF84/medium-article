@@ -1,0 +1,18 @@
+.container {
+  width: 700px;
+  margin: 50px auto;
+}
+
+.banner {
+  background-image: url("https://images.unsplash.com/photo-1620244919980-2e2cbb6fe728?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fGNhcmliYmVhbiUyMGhvdXNlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60");
+  background-size: cover;
+  color: white;
+  padding: 120px 0;
+  background-position-y: center;
+}
+
+@media(max-width: 992px) {
+  .container {
+    width: 700px;
+  }
+}
