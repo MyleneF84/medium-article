@@ -3,12 +3,41 @@
   margin: 50px auto;
 }
 
+body {
+  color: #494949;
+  font-size: 18px;
+  line-height: 1.6;
+  font-weight: lighter;
+  font-family: 'Lora', serif;
+  margin: 0;
+}
+
 .banner {
   background-image: url("https://images.unsplash.com/photo-1620244919980-2e2cbb6fe728?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fGNhcmliYmVhbiUyMGhvdXNlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60");
   background-size: cover;
   color: white;
   padding: 120px 0;
   background-position-y: center;
+}
+
+.banner h1 {
+    font-size: 38px;
+}
+
+.banner p {
+    font-size: 30px;
+    font-style: italic;
+    font-weight: lighter;
+    opacity: 0.8;
+}
+
+a {
+  text-decoration: none;
+  color: #494949;
+}
+
+a:hover {
+  color: teal ;
 }
 
 @media(max-width: 992px) {
